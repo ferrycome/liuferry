@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="刘峰睿（Fengrui Liu）的个人主页">
+  <title>刘峰睿 Fengrui Liu</title>
+  <style>
+    :root {
+      --bg: #ffffff;
+      --card: #f7f8fa;
+      --text: #1a1a1a;
+      --muted: #555;
+      --accent: #1a56db;
+      --border: #e4e6ea;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 48px 24px 80px;
+    }
+    header {
+      text-align: center;
+      padding: 40px 0 32px;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 32px;
+    }
+    .avatar {
+      width: 96px;
+      height: 96px;
+      border-radius: 50%;
+      background: var(--accent);
+      color: #fff;
+      font-size: 40px;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 20px;
+    }
+    h1 { font-size: 28px; font-weight: 700; }
+    .name-en { color: var(--muted); font-size: 16px; margin-top: 4px; }
+    .contact {
+      margin-top: 16px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center;
+    }
+    .contact a {
+      display: inline-block;
+      padding: 8px 16px;
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      text-decoration: none;
+      color: var(--accent);
+      font-size: 14px;
+      background: var(--card);
+      transition: all .15s ease;
+    }
+    .contact a:hover { border-color: var(--accent); background: #eef3ff; }
+    section { margin-bottom: 32px; }
+    h2 {
+      font-size: 18px;
+      font-weight: 600;
+      margin-bottom: 12px;
+      padding-left: 10px;
+      border-left: 3px solid var(--accent);
+    }
+    p, li { color: #333; font-size: 15px; }
+    ul { list-style: none; padding-left: 0; }
+    li { margin-bottom: 10px; }
+    .email-box {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 16px 20px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    .email-box .label { color: var(--muted); font-size: 13px; }
+    .email-box a { color: var(--accent); font-weight: 500; text-decoration: none; }
+    footer {
+      text-align: center;
+      color: var(--muted);
+      font-size: 13px;
+      margin-top: 48px;
+      padding-top: 24px;
+      border-top: 1px solid var(--border);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="avatar">刘</div>
+      <h1>刘峰睿</h1>
+      <div class="name-en">Fengrui Liu</div>
+      <div class="contact">
+        <a href="mailto:liuferry@163.com">📧 liuferry@163.com</a>
+      </div>
+    </header>
+
+    <section>
+      <h2>关于我</h2>
+      <p>你好，我是刘峰睿（Fengrui Liu）。这是我的个人主页，用于学术交流与个人介绍。</p>
+    </section>
+
+    <section>
+      <h2>联系方式</h2>
+      <div class="email-box">
+        <span class="label">邮箱 Email</span>
+        <a href="mailto:liuferry@163.com">liuferry@163.com</a>
+      </div>
+    </section>
+
+    <section>
+      <h2>个人链接</h2>
+      <ul>
+        <li>主页：本页（GitHub Pages）</li>
+        <li>邮箱：<a href="mailto:liuferry@163.com">liuferry@163.com</a></li>
+      </ul>
+    </section>
+
+    <footer>
+      <p>© 2026 刘峰睿 Fengrui Liu · liuferry@163.com</p>
+    </footer>
+  </div>
+</body>
+</html>
